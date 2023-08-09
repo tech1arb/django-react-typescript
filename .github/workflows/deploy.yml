@@ -2,7 +2,7 @@ name: Build Image, push to Registry and Deploy to Digital Ocean's PRD
 
 on:
   push:
-    # Publish `prd` as Docker `latest` image.
+    # Publish `master` as Docker `latest` image.
     branches:
       - master
 
